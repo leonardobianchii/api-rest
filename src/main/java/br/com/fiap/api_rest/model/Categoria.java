@@ -5,13 +5,13 @@ public enum Categoria {
     FICCAO("Ficção"),
     FANTASIA("Fantasia");
 
-        private String descricao;
+    private String descricao;
 
-    Categoria(String descricao){
+    Categoria(String descricao) {
         this.descricao = descricao;
     }
 
-    public  String getDescricao(){
+    public String getDescricao() {
         return descricao;
     }
 }
